@@ -1,0 +1,37 @@
+.board {
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: 50px;
+
+  .title {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    h2 {
+      font-size: 40px;
+    }
+
+    span {
+      font-size: 30px;
+    }
+
+    button {
+      padding: 8px 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

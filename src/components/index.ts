@@ -1,0 +1,11 @@
+export { default as Card } from "./card";
+export { default as Img1 } from "../assets/images/1.jpg";
+export { default as Img2 } from "../assets/images/2.jpg";
+export { default as Img3 } from "../assets/images/3.jpg";
+export { default as Img4 } from "../assets/images/4.jpg";
+export { default as Img5 } from "../assets/images/5.jpg";
+export { default as Img6 } from "../assets/images/6.jpg";
+export { default as Img7 } from "../assets/images/7.jpg";
+export { default as Img8 } from "../assets/images/8.jpg";
+export { default as Img9 } from "../assets/images/9.jpg";
+export { default as Img10 } from "../assets/images/10.jpg";
